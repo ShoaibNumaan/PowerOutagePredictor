@@ -1,9 +1,7 @@
-from turtle import back
 import pandas as pd
 import numpy as np
 import pickle
 import streamlit as st
-from PIL import Image
 import streamlit.components.v1 as components
 
 # loading in the model to predict on the data
