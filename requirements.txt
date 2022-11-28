@@ -1,7 +1,6 @@
 pandas
 numpy
 streamlit
-turtle
 pickle
 streamlit.components.v1
 Pillow
