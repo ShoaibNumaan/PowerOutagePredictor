@@ -1,4 +1,3 @@
 pandas
 numpy
 streamlit
-streamlit.components.v1
