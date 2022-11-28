@@ -146,8 +146,8 @@ def main():
 		# the following lines create text boxes in which the user can enter
 		# the data required to make the prediction
 		stateName = st.selectbox("Select a State:",statelist)
-		date = st.date_input("Enter the Date")
-		climateCat = st.selectbox("Select Climate Category", climateList)
+		date = st.date_input("Enter the date on which you want to predict the outage")
+		climateCat = st.selectbox("Please specify climate category for the selected date", climateList)
 		# causeCat = st.selectbox("Select the cause expected?", causeList)
 		resultOutage =""
 		resultCause =""
