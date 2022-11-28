@@ -24,7 +24,7 @@ def prediction(stateName, date, climateCat):
 	DD = date.day	
 	prediction = classifier.predict(
 		[[stateName[0:2], YYYY, MM, DD, climateCat[1]]])
-	print(prediction)
+	#print(prediction)
 
 	return prediction
 	
@@ -34,7 +34,7 @@ def cause_prediction(stateName, date, climateCat, target):
 	DD = date.day	
 	prediction = classifier_cause.predict(
 		[[stateName[0:2], YYYY, MM, DD, climateCat[1], target]])
-	print(prediction)
+	#print(prediction)
 	predList = {
 		1 : "Equipment failure",
 		2 : "Fuel supply emergency",
